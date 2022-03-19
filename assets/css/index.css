@@ -1,0 +1,63 @@
+.layui-footer {
+    text-align: center !important;
+}
+
+.avatar {
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    width: 91%;
+    height: 70px;
+    text-align: center;
+    line-height: 68px;
+    /* background-color: pink; */
+    /* 禁止文字被选中 */
+    user-select: none;
+    border-bottom: 1px solid #000;
+}
+
+.layui-icon {
+    margin-right: 8px;
+}
+
+.layui-nav-child {
+    padding-left: 10px !important;
+}
+
+
+/* 设置fm标签的属性 */
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.layui-body {
+    /* 去除内滚动条 */
+    overflow: hidden;
+}
+
+
+/* 去除layui 对 a的动画效果 */
+
+a {
+    transition: none !important;
+}
+
+.text-avatar {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 147, 133);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+    color: #fff;
+}
+
+layui-icon-circle-dot {
+    font-size: 20px !important;
+}

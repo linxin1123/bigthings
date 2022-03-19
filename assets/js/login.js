@@ -99,7 +99,7 @@
                 localStorage.setItem("token", res.token);
 
                 // 跳转到首页
-                // location.href = '/index.html';
+                location.href = 'http://127.0.0.1:5500/index.html';
             }
         })
 
